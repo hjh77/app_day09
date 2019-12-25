@@ -1,0 +1,48 @@
+#{
+#name: "hah"
+#}
+
+#value1: {"name": "张三"}
+#
+#value2: 张三
+#
+#value3:
+#  name1: "张三"
+#  name2: "李四"
+
+# ----------数组---------
+value4:
+  - 1
+  - 2
+value5: [1,2,3]
+value6:
+  - name: "lilili"
+  - name: "lilili"
+
+# ------布尔--------
+value7: true # yaml文件支持
+value8: true
+
+value9: True # python数据类型
+value10: False
+
+value11: 12 # 整数
+value12: 12.2222222 # 浮点数
+
+# 空
+value13: ~  # yaml 空
+value14:    # 没有任何内容 支持
+value15: null # 支持
+value16: Null # 支持
+
+value17: none # python数据 不支持
+value18: None # python数据 不支持
+value19: "" # python数据 不支持
+
+
+# -----------日期---------
+value20: 2020-11-11 12:12:12 # 返回值 datetime.datetime
+value21: 2020-11-11 # 返回值 datetime.date
+value22: 12:12:12 # 返回整数
+value23: 2020-11-11 02:02:01 # 如果是个位数 补零
+value24: 2020-01-11 # 如果是个位数 补零

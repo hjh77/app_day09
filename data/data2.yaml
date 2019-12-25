@@ -1,0 +1,7 @@
+info: &data
+  name: "lili"
+  age: "18"
+
+address:
+  <<: *data
+  sex: "female"
